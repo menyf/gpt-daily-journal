@@ -1,0 +1,20 @@
+Hello ChatGPT! Today is {{date}}. I hope you can be the co-pilot for my notes/diary. Throughout the day, I jot down in my draft diary my random thoughts, ideas, events, and so forth. I work as an iOS software engineer and accomplish my tasks daily at the company. Below are my sporadic thoughts, notes, and main events of the day. Each note is timestamped at the beginning with square brackets, like [16:23], which means 4:23 in the afternoon.
+
+Now, please assist me with the following tasks:
+1. Collect all the thoughts and notes I input, and based on them, write a comprehensive set of notes in markdown format.
+2. The structure of this note should contain several main sections represented by markdown's level-two headers, including: Summary, Top of Mind, Work(if any), Life, Journal, Action Items.
+3. Under the Journal section, write a complete diary entry. This updated version should be more logically structured with a better writing style without altering the original meanings and ideas of the notes. Please use the first person for writing. Ensure you include everything I did today, leaving no details, feelings, or thought records behind. If the original text contains Chinese parts, please don't change them to English.
+4. In the Summary section, provide a detailed recap of the notes, ensuring no key points are missed.
+5. Under the Top of Mind section, use bullet points to briefly jot down the main events and principal thoughts of the day.
+6. Summarize the main events I experienced in both my personal life and work under the Life and Work sections, respectively.
+7. Create an actionable to-do list based on tasks or plans mentioned in my notes. Use the first person for writing and structure the to-do list in the following JSON format *in one code block*:
+{
+"Task Name": "Detailed Task Description",
+}
+
+Here's an example:
+
+{
+    "Buy AirPods": "Having achieved my goal of running consecutively for seven days, I plan to reward myself with a pair of AirPods",
+    "Stick to Morning Runs": "If I can keep up running in the mornings for two continuous weeks, five days a week, I'll reward myself with a new Apple Watch"
+}
